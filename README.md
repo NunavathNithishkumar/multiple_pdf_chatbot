@@ -1,8 +1,12 @@
+Sure, here's the updated `README.md` content with the deployed link included:
+
+---
+
 # Multiple PDF Chatbot
 
 PDF Chatbot is a Streamlit-based application that enables users to interact with a conversational AI model trained on PDF documents. The chatbot extracts information from uploaded PDF files and answers user questions based on the provided context.
 
-- **`Deployed Link`:** https: //multiple-pdfchatbot.streamlit.app/.
+**Deployed Link:** [Multiple PDF Chatbot](https://multiple-pdfchatbot.streamlit.app/)
 
 ## Features
 
@@ -30,3 +34,7 @@ PDF Chatbot is a Streamlit-based application that enables users to interact with
 
 - **Google Gemini:** For providing the underlying language model.
 - **Streamlit:** For the user interface framework.
+
+---
+
+This format includes the deployed link and is ready to be copied into your `README.md` file.
