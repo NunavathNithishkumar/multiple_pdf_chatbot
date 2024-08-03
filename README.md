@@ -2,7 +2,7 @@
 
 PDF Chatbot is a Streamlit-based application that enables users to interact with a conversational AI model trained on PDF documents. The chatbot extracts information from uploaded PDF files and answers user questions based on the provided context.
 
-# Deployed Link:https: //multiple-pdfchatbot.streamlit.app/
+- **`Deployed Link`:** https: //multiple-pdfchatbot.streamlit.app/.
 
 ## Features
 
