@@ -14,6 +14,11 @@ load_dotenv()
 os.getenv("GOOGLE_API_KEY")
 genai.configure(api_key=os.getenv("GOOGLE_API_KEY"))
 
+   st.set_page_config(
+        page_title="Gemini PDF Chatbot",
+        page_icon="🤖"
+    )
+
 hide_st_style = """
             <style>
             #MainMenu {visibility: hidden;}
@@ -95,10 +100,10 @@ def user_input(user_question):
 
 
 def main():
-    st.set_page_config(
-        page_title="Gemini PDF Chatbot",
-        page_icon="🤖"
-    )
+    # st.set_page_config(
+    #     page_title="Gemini PDF Chatbot",
+    #     page_icon="🤖"
+    # )
 
     # Sidebar for uploading PDF files
     with st.sidebar:
