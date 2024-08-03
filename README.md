@@ -34,7 +34,3 @@ PDF Chatbot is a Streamlit-based application that enables users to interact with
 
 - **Google Gemini:** For providing the underlying language model.
 - **Streamlit:** For the user interface framework.
-
----
-
-This format includes the deployed link and is ready to be copied into your `README.md` file.
