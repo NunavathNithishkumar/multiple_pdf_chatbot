@@ -11,8 +11,8 @@ from langchain.prompts import PromptTemplate
 from dotenv import load_dotenv
 
 load_dotenv()
-os.getenv(secrets.GOOGLE_API_KEY)
-genai.configure(api_key=os.getenv(secrets.GOOGLE_API_KEY))
+os.getenv("GOOGLE_API_KEY")
+genai.configure(api_key=os.getenv("GOOGLE_API_KEY"))
 st.set_page_config(
         page_title="PDF Chatbot",
         page_icon="🤖"
