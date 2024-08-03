@@ -14,7 +14,7 @@ load_dotenv()
 os.getenv("GOOGLE_API_KEY")
 genai.configure(api_key=os.getenv("GOOGLE_API_KEY"))
 st.set_page_config(
-        page_title="Gemini PDF Chatbot",
+        page_title="PDF Chatbot",
         page_icon="🤖"
     )
 
@@ -117,7 +117,7 @@ def main():
                 st.success("Done")
 
     # Main content area for displaying chat messages
-    st.title("Chat with PDF files using Gemini🤖")
+    st.title("Chat with PDF files🤖")
     st.write("Welcome to the chat!")
     st.sidebar.button('Clear Chat History', on_click=clear_chat_history)
 
