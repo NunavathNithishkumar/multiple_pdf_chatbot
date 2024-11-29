@@ -100,7 +100,7 @@ def user_input(user_question):
 
 def main():
     # st.set_page_config(
-    #     page_title="Gemini PDF Chatbot",
+    #     page_title="PDF-Chatbot",
     #     page_icon="🤖"
     # )
 
